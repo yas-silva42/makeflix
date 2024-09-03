@@ -1,0 +1,91 @@
+body{
+    color:rgb(247, 165, 219);
+    background: rgb(255, 13, 162);
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(143, 2, 148);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(139, 3, 133);
+}
+
+.chamada{
+    background:  rgb(255, 255, 255);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 5%;}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+img{
+    height: 200px;
+}
+
+.artistica-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.artistica{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.artistica-videos img{
+    opacity: 0.5;
+    margin-left: 6%;
+}
+
+.artistica-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid white;
+}
+
+.artistica h2{
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+}
+
+.diferentes-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.diferentes{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.diferentes-videos img{
+    opacity: 0.5;
+    margin-left: 6%;
+}
+
+.diferentes-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid white;
+}
+
+.diferentes h2{
+    color: rgb(245, 179, 245);
+    margin-left: 10px;
+}
